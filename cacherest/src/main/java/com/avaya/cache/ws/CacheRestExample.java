@@ -56,7 +56,7 @@ public class CacheRestExample {
 	}
 	
 	protected void printStats(Statistics stats,StringBuilder stringBuilder) {
-		LOGGER.info("***** Hibernate Statistics *****");
+		LOGGER.info("****** Hibernate Statistics *****");
 		LOGGER.info("Fetch Count=" + stats.getEntityFetchCount());
 		LOGGER.info("Second Level Hit Count=" + stats.getSecondLevelCacheHitCount());
 		LOGGER.info("Second Level Miss Count=" + stats.getSecondLevelCacheMissCount());
